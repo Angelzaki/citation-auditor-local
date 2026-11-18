@@ -1,0 +1,4 @@
+{"id": "ok1", "answer": "El descuento máximo autorizado en A1 es 12%.", "citations": ["politica_a1"], "expected_doc": "politica_a1"}
+{"id": "ok2", "answer": "El límite comercial mensual por cuenta es de S/ 250,000.", "citations": ["limite_comercial"], "expected_doc": "limite_comercial"}
+{"id": "bad_missing", "answer": "El descuento es 12%.", "citations": ["doc_fantasma"], "expected_doc": "politica_a1"}
+{"id": "bad_support", "answer": "A1 incluye viaje gratis a la luna.", "citations": ["politica_a1"], "expected_doc": "politica_a1"}
